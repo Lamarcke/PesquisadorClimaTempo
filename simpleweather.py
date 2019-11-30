@@ -80,7 +80,6 @@ def get_weather(city):
 
 
 get_icons()
-# Minimalistic Landscape Wallpaper by ZacTheAcorn
 background_image = PhotoImage(file='./data/img/landscape.png')
 background_render = Label(main, image=background_image)
 background_render.place(relwidth=1, relheight=1)
